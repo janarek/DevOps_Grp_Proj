@@ -7,14 +7,15 @@
 <meta charset="UTF-8">
 <title>SpotThings</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<nav  class="navbar navbar-expand-lg navbar-dark bg-primary">
-<img src="logo.png" alt="Girl in a jacket">  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav  class="navbar navbar-expand-lg navbar-dark" style="background-color: #14274F;">
+  <a href="#"><img src="logo.png" style="height:50px"></a> 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -33,15 +34,47 @@
     
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <i class="fa fa-search" type="submit" style="color:white; padding:10px;"></i>
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="border-radius:20px;">
     </form>
     
-    <button style="font-size: 20px;background-color: #14274F;color:white;border-radius: 8px;">Log in</button>
-        <button style="font-size: 20px;background-color: #14274F;color:white;border-radius: 8px;">Sign up</button>
+    <button style="font-size: 15px;background-color: #14274F;color:white;border-radius: 8px; border-color:white; margin-right:10px; margin-left:20px; padding-top: 5px; padding-bottom: 5px; padding-left:15px; padding-right:15px;">Log in</button>
+    <button style="font-size: 15px;background-color: #14274F;color:white;border-radius: 8px; border-color:white; margin-left:10px; padding-top: 5px; padding-bottom: 5px; padding-left:15px; padding-right:15px;">Sign up</button>
     
   </div>
 </nav>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="logo.png">
+    </div>
+    <div class="carousel-item">
+      <img src="logo.png">
+    </div>
+    <div class="carousel-item">
+      <img src="logo.png">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
 
 </body>
 </html>
