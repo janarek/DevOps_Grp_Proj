@@ -11,14 +11,15 @@
 <body>
 <jsp:include page="index.jsp" />
 
-<img style="float:left;margin-left:50px;margin-top:50px;width:30%" src="image.png">
-<div style="postion:relative;left:20px;"><p style="margin-top:50px;">Generic White T-shirt</p>
-<p>$12.90</p>
+<img style="margin-left:50px;margin-top:50px;width:30%" src="image.png">
+<div style=" float:right;margin-right:600px">
+<div class="tshirt" style="postion:relative;left:20px;"><p style="margin-top:50px;font-size:2vw;">Generic White T-shirt</p>
+<p class="price" style="font-size:1.5vw">$12.90</p>
 <p style="opacity:0.5;">100% premium cotton with 
 minimal wrinkles</p>
 
 </div>
-<label>Colors</label><br>
+<label style="font-size:2vw">Colors:</label><br>
 <label for="html">Red</label>
 
   <input type="radio" id="css" name="fav_language" value="CSS">
@@ -26,10 +27,10 @@ minimal wrinkles</p>
   <input type="radio" id="css" name="fav_language" value="CSS">
 
 <br>
+<div style="margin-top:30px"></div>
 
-<hr color="black" width="30%" size="3">
 
-<label>Sizes</label><br>
+<label style="font-size:2vw">Sizes:</label><br>
 <label for="html">S</label>
 
   <input type="radio" id="css" name="fav_language" value="CSS">
@@ -39,12 +40,11 @@ minimal wrinkles</p>
 
 <label for="html">L</label>
   <input type="radio" id="css" name="fav_language" value="CSS">
-<hr color="black" width="30%" size="3">
 
 <br>
 
 
-<label for="quantity">Quantity</label>
+<label for="quantity" style="font-size:2vw">Quantity</label>
 <br>
 
 <select id="quantity">
@@ -54,9 +54,11 @@ minimal wrinkles</p>
   <option value="4" selected>4</option>
 </select>
 <br>
-<button class="button3">Add to cart</button>
+<div style="margin-bottom:20px"></div>
+<button style="height:50px;width:200px;font-size:1.5vw" class="button3">Add to cart</button>
 
 
+</div>
 
 </body>
 </html>
