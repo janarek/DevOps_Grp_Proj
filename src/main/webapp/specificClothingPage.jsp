@@ -60,5 +60,7 @@ minimal wrinkles</p>
 
 </div>
 
+<p style="background-color:red;width:200px;font-size:1.5vw;color:white;margin-left:100px;margin-top:20px;text-align:center">Row - 2, Aisle - 1</p>
+
 </body>
 </html>
